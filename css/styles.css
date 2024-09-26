@@ -26,6 +26,8 @@ body {
   overflow: hidden;
 }
 
+/* =================HEADER=============== */
+
 .header-logo {
   color: #111;
   font-weight: 700;
@@ -41,6 +43,8 @@ body {
 }
 .header-menu-item {
 }
+
+
 .header-menu-link {
 font-weight: 500;
 font-size: 14px;
@@ -48,9 +52,64 @@ line-height: 1.14;
 letter-spacing: -0.02em;
 color: #111;
 }
+
+.header-menu-link:hover {
+color: #FD9222;
+}
+
 .header-soc {
 }
 .header-soc-item {
 }
 .header-soc-link {
+}
+
+/* =================HERO=============== */
+.hero {
+background-color: rgba(17, 17, 17, 0.6);
+}
+.hero-title {
+font-weight: 500;
+font-size: 28px;
+line-height: 1.21;
+letter-spacing: -0.03em;
+color: #ffffff;
+}
+.hero-buy-btn {
+font-family: inherit;
+font-weight: 600;
+font-size: 14px;
+color: #ffffff;
+}
+.hero-anchor-btn {
+font-weight: 600;
+font-size: 14px;
+color: #ffffff;
+}
+.hero-bottom-btn {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.03em;
+color: #ffffff;
+}
+
+/* =================FEATURES=============== */
+.features {
+  background-color: #1E1823;
+}
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+font-weight: 600;
+font-size: 18px;
+color: #ffffff;
+}
+.features-text {
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+color: rgba(255, 255, 255, 0.7);
 }
