@@ -354,7 +354,7 @@ padding-bottom: 28px;
 }
 
 .loved-list {
-  margin-bottom: 50px;
+  mb50
 }
 
 .loved-item {
@@ -390,8 +390,6 @@ padding: 56px 24px 24px 24px;
   line-height: normal;
   cursor: pointer;
   background-color: #ffffff;
-  display: block;
-  margin: 0 auto;
 }
 
 .loved-btn:hover,
@@ -404,8 +402,6 @@ padding: 56px 24px 24px 24px;
 
 .footer {
   background-color: #1e1823;
-  padding-top: 50px;
-  padding-bottom: 86px;
 }
 
 .footer-text {
@@ -414,7 +410,6 @@ padding: 56px 24px 24px 24px;
   line-height: 1.21;
   letter-spacing: -0.02em;
   color: #ffffff;
-  max-width: 300px;
 }
 
 .footer-text span {
@@ -427,7 +422,6 @@ padding: 56px 24px 24px 24px;
   line-height: 1.29%;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 14px;
 }
 
 .footer-soc-list {}
@@ -450,12 +444,6 @@ padding: 56px 24px 24px 24px;
   letter-spacing: -0.02em;
   text-align: center;
   color: #ffffff;
-}
-
-.footer-top {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding-bottom: 50px;
-  margin-bottom: 24px;
 }
 
 .footer-navigation {}
