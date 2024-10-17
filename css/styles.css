@@ -504,14 +504,32 @@ img {
 
 .footer {
   background-color: #1e1823;
+  
 }
 
+.footer-container {
+  padding: 50px 32px 86px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  }
+
 .footer-text {
+  max-width: 300px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1.21;
   letter-spacing: -0.02em;
   color: #ffffff;
+}
+
+
+.footer-top-list {
+  display: flex;
+  gap: 50px;
 }
 
 .footer-text span {
@@ -522,8 +540,8 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29%;
-  text-align: center;
   color: #ffffff;
+  margin-bottom: 14px;
 }
 
 .footer-soc-list {}
@@ -548,9 +566,15 @@ img {
   color: #ffffff;
 }
 
-.footer-navigation {}
+.footer-navigation {
+  
+}
 
-.footer-menu-list {}
+.footer-menu-list {
+  display: flex;
+  gap: 24px;
+
+}
 
 .footer-menu-item {}
 
