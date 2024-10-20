@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 /* * {
@@ -91,7 +91,6 @@ img {
   justify-content: space-between;
 }
 
-
 .header-logo {
   display: flex;
   align-items: center;
@@ -113,7 +112,8 @@ img {
   align-items: center;
 }
 
-.header-menu-item {}
+.header-menu-item {
+}
 
 .header-menu-link {
   font-weight: 500;
@@ -121,6 +121,11 @@ img {
   line-height: 1.14;
   letter-spacing: -0.02em;
   color: #111;
+
+  /* transition-property: color;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+  transition: color 300ms ease;
 }
 
 .header-menu-link:hover {
@@ -146,6 +151,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #000000;
+  transition: color 300ms linear, border-color 300ms linear;
 }
 
 .header-soc-link:hover,
@@ -154,23 +161,28 @@ img {
 }
 
 .header-soc-icon {
-  fill: #111111;
-}
+  fill: currentColor;
+  }
 
-.header-soc-link:hover .header-soc-icon ,
+.header-soc-link:hover .header-soc-icon,
 .header-soc-link:focus .header-soc-icon {
-  fill: #FD9222;
+  fill: #fd9222;
 }
 
 /* =================HERO=============== */
 
-.hero {}
+.hero {
+}
 
 .hero-container {
   width: 100%;
   max-width: 1166px;
   background-color: rgba(17, 17, 17, 0.6);
-  background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)), url(../images/main-bg.jpg);
+  background-image: linear-gradient(
+      rgba(17, 17, 17, 0.4),
+      rgba(17, 17, 17, 0.4)
+    ),
+    url(../images/main-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -205,6 +217,8 @@ img {
   padding: 14px 40px;
   border: none;
   margin-right: 14px;
+
+  transition: color 300ms linear, background-color 300ms linear;
 }
 
 .hero-buy-btn:hover,
@@ -220,11 +234,14 @@ img {
   border: 1px solid #ffffff;
   border-radius: 100px;
   padding: 14px 40px;
+
+  transition: color 300ms linear, border-color 300ms linear;
 }
 
 .hero-anchor-btn:hover,
 .hero-anchor-btn:focus {
   color: #fd9222;
+  border-color: #fd9222;
 }
 
 .hero-bottom-btn {
@@ -273,6 +290,15 @@ img {
 
 .features-item {
   width: calc((100% - 176px) / 3);
+  position: relative;
+}
+
+.features-item::after {
+  content: " ";
+  position: absolute;
+  height: 124px;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .features-subtitle {
@@ -314,17 +340,17 @@ img {
   padding: 28px 23px;
 }
 
-.taste-item:nth-child(4n+1) {
-  background-color: #FD9222;
-  color: #FFFFFF;
+.taste-item:nth-child(4n + 1) {
+  background-color: #fd9222;
+  color: #ffffff;
 }
 
 .taste-item:nth-child(even) {
-  border: 1px solid #FD9222;
+  border: 1px solid #fd9222;
 }
 
-.taste-item:nth-child(4n+3) {
-  background-color: #1E1823;
+.taste-item:nth-child(4n + 3) {
+  background-color: #1e1823;
 }
 
 .taste-item:nth-child(odd) .taste-subtitle {
@@ -359,7 +385,8 @@ img {
   gap: 20px;
 }
 
-.made-img {}
+.made-img {
+}
 
 .made-container {
   background-color: #ffffff;
@@ -374,7 +401,8 @@ img {
   margin-bottom: 28px;
 }
 
-.made-list {}
+.made-list {
+}
 
 .made-item {
   margin-bottom: 24px;
@@ -407,7 +435,8 @@ img {
   gap: 24px 18px;
 }
 
-.list {}
+.list {
+}
 
 .products-item {
   border: 1px solid rgba(17, 17, 17, 0.1);
@@ -466,7 +495,8 @@ img {
   width: calc((100% - (16px * 2)) / 3);
 }
 
-.sellers-img {}
+.sellers-img {
+}
 
 .sellers-subtitle {
   font-weight: 600;
@@ -508,7 +538,8 @@ img {
   padding: 56px 24px 24px 24px;
 }
 
-.loved-img {}
+.loved-img {
+}
 
 .loved-subtitle {
   font-weight: 600;
@@ -553,7 +584,6 @@ img {
 
 .footer {
   background-color: #1e1823;
-
 }
 
 .footer-container {
@@ -575,7 +605,6 @@ img {
   color: #ffffff;
 }
 
-
 .footer-top-list {
   display: flex;
   gap: 50px;
@@ -593,19 +622,24 @@ img {
   margin-bottom: 14px;
 }
 
-.footer-soc-list {}
+.footer-soc-list {
+}
 
-.footer-soc-item {}
+.footer-soc-item {
+}
 
-.footer-soc-link {}
+.footer-soc-link {
+}
 
 .footer-address {
   font-style: inherit;
 }
 
-.footer-address-list {}
+.footer-address-list {
+}
 
-.footer-address-item {}
+.footer-address-item {
+}
 
 .footer-address-link {
   font-size: 14px;
@@ -615,15 +649,16 @@ img {
   color: #ffffff;
 }
 
-.footer-navigation {}
+.footer-navigation {
+}
 
 .footer-menu-list {
   display: flex;
   gap: 24px;
-
 }
 
-.footer-menu-item {}
+.footer-menu-item {
+}
 
 .footer-menu-link {
   font-weight: 500;
