@@ -266,15 +266,14 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 16px;
-
+  
   transition-duration: 300ms;
 }
 
 .hero-bottom-btn:hover::after {
   background-size: 22px;
-  background-color: #fd9222;
-  stroke: #fafafa;
-}
+  background-color: #ffe5c9;
+  }
 
 /* =================FEATURES=============== */
 
